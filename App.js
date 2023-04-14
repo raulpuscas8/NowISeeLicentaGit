@@ -7,6 +7,7 @@
 
 import React from 'react';
 import type {PropsWithChildren} from 'react';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import {
   SafeAreaView,
   ScrollView,
@@ -26,7 +27,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 type SectionProps = PropsWithChildren<{
-  title: string;
+  title: string,
 }>;
 
 function Section({children, title}: SectionProps): JSX.Element {
